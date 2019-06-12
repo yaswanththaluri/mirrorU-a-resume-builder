@@ -1,0 +1,50 @@
+body, html
+{
+    min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#myNavbar
+{
+    padding: 1.5%;
+}
+
+#myContent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#resumeDetails
+{
+    width: 100%;
+    padding: 5%;
+}
+
+#personalDetails
+{
+    width: 100%;
+}
+
+#basicDetails
+{
+    padding: 2%;
+}
+
+#addressDetails
+{
+    padding: 2%;
+}
+
+#summary
+{
+
+}
+
+#summaryDataDiv
+{
+    padding: 1%;
+}
