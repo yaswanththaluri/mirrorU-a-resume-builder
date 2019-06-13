@@ -48,3 +48,31 @@ body, html
 {
     padding: 1%;
 }
+
+#educationDetails, #projects, #skills, #certifications, #achievements
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+
+#educationInputs, #projectItem,#skillItem, .educationInputs, .projectItem, .skillItem, .certificateItem, #achInnerDiv
+{
+    width: 80%;
+    padding: 2%;
+}
+
+#controls-education
+{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#controls-project, #controls-skill, #controls-certificate
+{
+    text-align: center;
+}
+
+
+

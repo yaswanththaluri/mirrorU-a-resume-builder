@@ -19,6 +19,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+              integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
         <link href="stylesheet.css" rel="stylesheet">
 
         <script src="script.js" type="application/javascript"></script>
@@ -88,6 +92,139 @@
                 </div>
 
             </div>
+
+            <hr>
+
+            <h4>Education Details</h4>
+
+            <div id="educationDetails">
+
+                <div id="educationInputs" class="educationInputs">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control degree"  placeholder="Degree / Class" aria-describedby="addressHelp" required>
+                        <small class="degreeHelp" class="form-text text-muted">Eg: B.Tech, Intermediate, X Class etc</small>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control institute"  placeholder="Institute / College Name" aria-describedby="instituteHelp" required>
+                        <small class="instituteHelp" class="form-text text-muted">Dont write short names like IIT, specify the full name</small>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="specialization">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="From - To">
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="controls-education">
+                <i class="fas fa-plus-circle fa-2x" id="addEducation"></i>
+                &nbsp &nbsp
+                <i class="fas fa-times-circle fa-2x" id="deleteEducation"></i>
+            </div>
+
+
+            <hr>
+
+
+            <h4>Projects Undertaken</h4>
+
+            <div id="projects">
+
+                <div id="projectItem" class="projectItem">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control projectTitle"  placeholder="Project Title"  required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control projectDesc"  rows="5" cols="20" placeholder="Project Description"></textarea>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="controls-project">
+                <i class="fas fa-plus-circle fa-2x" id="addProject"></i>
+                &nbsp &nbsp
+                <i class="fas fa-times-circle fa-2x" id="deleteProject"></i>
+            </div>
+
+            <hr>
+
+            <h4>Skills</h4>
+
+            <div id="skills">
+
+                <div id="skillItem" class="skillItem">
+
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Skill">
+                        </div>
+                        <div class="col">
+                            <select  class="form-control">
+                                <option selected>--Skill Level--</option>
+                                <option>Basic</option>
+                                <option>Intermediate</option>
+                                <option>Advanced</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="controls-skill">
+                <i class="fas fa-plus-circle fa-2x" id="addSkill"></i>
+                &nbsp &nbsp
+                <i class="fas fa-times-circle fa-2x" id="deleteSkill"></i>
+            </div>
+
+
+            <hr>
+
+            <h4>Certifications</h4>
+
+            <div id="certifications">
+
+                <div class="form-group certificateItem">
+                    <input type="text" class="form-control  certificate"  placeholder="Enter Certification Name"  required>
+                </div>
+
+            </div>
+
+            <div id="controls-certificate">
+                <i class="fas fa-plus-circle fa-2x" id="addcertificate"></i>
+                &nbsp &nbsp
+                <i class="fas fa-times-circle fa-2x" id="deletecertificate"></i>
+            </div>
+
+            <hr>
+
+
+            <h4>Achievements</h4>
+
+            <div id="achievements">
+
+                <div class="form-group" id="achInnerDiv">
+                    <textarea class="form-control" id="achievementData" rows="5" placeholder="List Your Achievements"></textarea>
+                </div>
+
+            </div>
+
 
         </div>
 
